@@ -3,10 +3,10 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/mihir-choudhary/"><img src="https://img.shields.io/badge/LinkedIn-mihir--choudhary-0A66C2?style=for-the-badge&labelColor=0D1117" alt="LinkedIn"></a>
   <a href="mailto:mihirsinghchoudhary777@gmail.com"><img src="https://img.shields.io/badge/Email-reach_out-3FB950?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117" alt="Email"></a>
-  <a href="https://github.com/Mihir-Choudhary?tab=repositories"><img src="https://img.shields.io/badge/Repos-DFIR_tooling-E6EDF3?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Repositories"></a>
+  <a href="https://github.com/Mihir-Choudhary?tab=repositories"><img src="https://img.shields.io/badge/Repos-DFIR_tooling-3FB950?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Repositories"></a>
 </p>
 
-<img src="assets/stats.svg" alt="40+ cases investigated · 9 upstream PRs · 5 DFIR tools built · 2 years experience" width="100%">
+<img src="assets/stats.svg" alt="40+ cases investigated · 3 forensic tools built · 2 years DFIR experience · GCFA" width="100%">
 
 <br>
 
@@ -17,11 +17,12 @@ DFIR analyst at **Tata Consultancy Services**, running end-to-end investigations
 Most of my time goes into correlating logs and telemetry into an attack timeline that actually holds up. When a tool doesn't exist for the artifact in front of me, I write one — that's where everything below came from.
 
 ```yaml
-current_focus:
-  cloud:     EC2 snapshot acquisition · EBS imaging · CloudTrail & VPC Flow Logs
-  mobile:    Cellebrite UFED · manual SQLite carving of Indian fintech apps
-  malware:   Ghidra · IDA Pro · memory forensics
-  automation: parser development · AI-assisted triage · scripting
+disk_forensics:   E01 / AFF4 / RAW acquisition · NTFS artifacts · registry · prefetch · timeline reconstruction
+memory_forensics: Volatility 3 · process & handle analysis · injected code · API hook detection
+mobile_forensics: Cellebrite UFED · manual SQLite carving · deleted-record recovery · Indian fintech apps
+cloud_forensics:  EC2 snapshot acquisition · EBS imaging · CloudTrail & VPC Flow Logs · OneDrive / GDrive
+malware_analysis: Ghidra · IDA Pro · static & dynamic triage · reverse engineering
+automation:       parser development · AI-assisted analysis · scripting
 ```
 
 <br>
@@ -30,60 +31,37 @@ current_focus:
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
 ### [EventHawk](https://github.com/Mihir-Choudhary/EventHawk)
 ![stars](https://img.shields.io/github/stars/Mihir-Choudhary/EventHawk?style=flat-square&labelColor=0D1117&color=3FB950)
 ![Python](https://img.shields.io/badge/Python-0D1117?style=flat-square&logo=python&logoColor=3FB950)
 
-Windows EVTX log analysis for DFIR — fast parsing, ATT&CK mapping, IOC extraction and Sentinel anomaly detection. **Juggernaut Mode** (Arrow/DuckDB) chews through 10M+ events.
+Windows **EVTX log analysis** for DFIR — fast parsing, ATT&CK mapping, IOC extraction and Sentinel anomaly detection.
+
+*Juggernaut Mode* (Arrow/DuckDB) chews through 10M+ events.
 
 </td>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
 ### [Android-PhonePe-Forensics](https://github.com/Mihir-Choudhary/Android-Phonepe-Forensics)
 ![stars](https://img.shields.io/github/stars/Mihir-Choudhary/Android-Phonepe-Forensics?style=flat-square&labelColor=0D1117&color=3FB950)
 ![Python](https://img.shields.io/badge/Python-0D1117?style=flat-square&logo=python&logoColor=3FB950)
 
-Forensic parser and analysis dashboard for PhonePe Android extractions, including recovery of deleted records from the SQLite stores.
+Forensic parser and analysis dashboard for **PhonePe Android** extractions.
+
+Recovers deleted records straight out of the SQLite stores.
 
 </td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
 ### [Paytm-Forensics](https://github.com/Mihir-Choudhary/Paytm-Forensics)
 ![stars](https://img.shields.io/github/stars/Mihir-Choudhary/Paytm-Forensics?style=flat-square&labelColor=0D1117&color=3FB950)
 ![WIP](https://img.shields.io/badge/status-WIP-D29922?style=flat-square&labelColor=0D1117)
 
-Offline, read-only forensic parser for the Paytm Android app (`net.one97.paytm`). Read-only by construction — no writes to evidence.
+Offline parser for the **Paytm Android** app (`net.one97.paytm`).
 
-</td>
-<td width="50%" valign="top">
-
-### [SOC-Automation-Project](https://github.com/Mihir-Choudhary/SOC-Automation-Project)
-![Wazuh](https://img.shields.io/badge/Wazuh-0D1117?style=flat-square&color=0D1117&labelColor=0D1117)
-![Shuffle](https://img.shields.io/badge/TheHive_·_Shuffle-0D1117?style=flat-square)
-
-Alarm collection from Wazuh → ticket creation in TheHive → analyst notification, orchestrated end-to-end with Shuffle.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### [EDR-SOAR-Automation-Project](https://github.com/Mihir-Choudhary/EDR-SOAR-Automation-Project)
-![LimaCharlie](https://img.shields.io/badge/LimaCharlie_·_Tines_·_Slack-0D1117?style=flat-square)
-
-Detection, alerting and response workflow wiring LimaCharlie telemetry through Tines into Slack for the analyst on duty.
-
-</td>
-<td width="50%" valign="top">
-
-### [AeroGuard](https://github.com/Mihir-Choudhary/AeroGuard)
-![C++](https://img.shields.io/badge/C++-0D1117?style=flat-square&logo=cplusplus&logoColor=3FB950)
-
-Real-time drone application for precision tracking of moving vehicles — built for law-enforcement and security use cases.
+Read-only by construction — never writes to evidence.
 
 </td>
 </tr>
@@ -93,19 +71,12 @@ Real-time drone application for precision tracking of moving vehicles — built 
 
 ## ▍Upstream Contributions
 
-Work merged into tools the DFIR community actually runs.
+Contributions to the forensic tools the DFIR community runs every day.
 
 | | Contribution | Project |
 | :--- | :--- | :--- |
 | ![open](https://img.shields.io/badge/open-3FB950?style=flat-square&labelColor=0D1117) | [`--ads` switch to scan alternate data streams for hidden prefetch](https://github.com/EricZimmerman/PECmd/pull/17) | **PECmd** — Eric Zimmerman's EZ Tools |
 | ![open](https://img.shields.io/badge/open-3FB950?style=flat-square&labelColor=0D1117) | [`windows.malware.apihooks` plugin for Windows API hook detection](https://github.com/volatilityfoundation/volatility3/pull/1968) | **Volatility 3** |
-| ![merged](https://img.shields.io/badge/merged-8957E5?style=flat-square&labelColor=0D1117) | [Fixed a critical credential-vault bug that killed S3 upload, plus GUI overhaul](https://github.com/sujayadkesar/IR-Agent-Builder/pull/1) | **IR-Agent-Builder** |
-| ![merged](https://img.shields.io/badge/merged-8957E5?style=flat-square&labelColor=0D1117) | [Self-contained collector — static CRT, configurable output path, verbose diagnostics](https://github.com/sujayadkesar/IR-Agent-Builder/pull/2) | **IR-Agent-Builder** |
-| ![merged](https://img.shields.io/badge/merged-8957E5?style=flat-square&labelColor=0D1117) | [Security audit fixes — IAM/SSE-KMS deny (HIGH), sidecar encryption, hardening](https://github.com/sujayadkesar/IR-Agent-Builder/pull/3) | **IR-Agent-Builder** |
-| ![merged](https://img.shields.io/badge/merged-8957E5?style=flat-square&labelColor=0D1117) | [Fixed collector OOM on large collections via chunked X509 encryption](https://github.com/sujayadkesar/IR-Agent-Builder/pull/4) | **IR-Agent-Builder** |
-| ![merged](https://img.shields.io/badge/merged-8957E5?style=flat-square&labelColor=0D1117) | [Forensic-integrity and correctness fixes in the shared engine](https://github.com/sujayadkesar/PhonePe-Forensics/pull/3) | **PhonePe-Forensics** |
-| ![merged](https://img.shields.io/badge/merged-8957E5?style=flat-square&labelColor=0D1117) | [Unified launcher for the iOS and Android analysers](https://github.com/sujayadkesar/PhonePe-Forensics/pull/4) | **PhonePe-Forensics** |
-| ![merged](https://img.shields.io/badge/merged-8957E5?style=flat-square&labelColor=0D1117) | [Timeline filters, browse button and timeline-completeness fix](https://github.com/sujayadkesar/PhonePe-Forensics/pull/1) | **PhonePe-Forensics** |
 
 <br>
 
