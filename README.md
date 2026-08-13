@@ -143,10 +143,7 @@ Contributions to the forensic tools the DFIR community runs every day.
 
 <br>
 
-<details>
-<summary><b>▍ Case history — experience &amp; education</b></summary>
-
-<br>
+## ▍Case History
 
 **Digital Forensic Analyst** · Tata Consultancy Services · Hyderabad, India · *07/2025 – Present*
 
@@ -166,10 +163,6 @@ Contributions to the forensic tools the DFIR community runs every day.
 - SIEM agent deployment and configuration for reliable log collection
 - Built SIEM use cases for login monitoring, endpoint events and anomaly detection
 - Vulnerability assessment with Nessus and Nmap; prioritised findings by cost-impact and recommended remediation
-
-**B.Tech, Computer Science and Engineering** *(Cyber Security)* · Vellore Institute of Technology · 2021 – 2025 · CGPA 8.3/10
-
-</details>
 
 <br>
 
