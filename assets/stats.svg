@@ -1,39 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 112" width="1000" height="112" role="img" aria-label="40+ cases investigated, 9 upstream pull requests, 5 DFIR tools built, 2 years experience">
-  <defs>
-    <linearGradient id="tile" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#0D1117"/>
-      <stop offset="100%" stop-color="#10161D"/>
-    </linearGradient>
-  </defs>
-
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 74" width="1000" height="74" role="img" aria-label="40+ cases investigated · 3 forensic tools built · 2 years DFIR · GCFA certified">
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
 
-    <g transform="translate(0,0)">
-      <rect width="238" height="112" rx="12" fill="url(#tile)" stroke="#21262D" stroke-width="2"/>
-      <rect x="1" y="1" width="4" height="110" rx="2" fill="#3FB950" opacity="0.75"/>
-      <text x="119" y="58" text-anchor="middle" font-size="38" font-weight="700" fill="#3FB950">40+</text>
-      <text x="119" y="83" text-anchor="middle" font-size="10.5" fill="#8B949E" letter-spacing="1.8">CASES INVESTIGATED</text>
+    <g transform="translate(125,0)">
+      <text x="0" y="34" text-anchor="middle" font-size="34" font-weight="700" fill="#2EA043">40+</text>
+      <text x="0" y="58" text-anchor="middle" font-size="10.5" fill="#6E7681" letter-spacing="1.8">CASES INVESTIGATED</text>
     </g>
 
-    <g transform="translate(254,0)">
-      <rect width="238" height="112" rx="12" fill="url(#tile)" stroke="#21262D" stroke-width="2"/>
-      <rect x="1" y="1" width="4" height="110" rx="2" fill="#3FB950" opacity="0.75"/>
-      <text x="119" y="58" text-anchor="middle" font-size="38" font-weight="700" fill="#E6EDF3">9</text>
-      <text x="119" y="83" text-anchor="middle" font-size="10.5" fill="#8B949E" letter-spacing="1.8">UPSTREAM PRs</text>
+    <rect x="250" y="10" width="1" height="48" fill="#8B949E" opacity="0.35"/>
+
+    <g transform="translate(375,0)">
+      <text x="0" y="34" text-anchor="middle" font-size="34" font-weight="700" fill="#768390">3</text>
+      <text x="0" y="58" text-anchor="middle" font-size="10.5" fill="#6E7681" letter-spacing="1.8">FORENSIC TOOLS BUILT</text>
     </g>
 
-    <g transform="translate(508,0)">
-      <rect width="238" height="112" rx="12" fill="url(#tile)" stroke="#21262D" stroke-width="2"/>
-      <rect x="1" y="1" width="4" height="110" rx="2" fill="#3FB950" opacity="0.75"/>
-      <text x="119" y="58" text-anchor="middle" font-size="38" font-weight="700" fill="#E6EDF3">5</text>
-      <text x="119" y="83" text-anchor="middle" font-size="10.5" fill="#8B949E" letter-spacing="1.8">DFIR TOOLS BUILT</text>
+    <rect x="500" y="10" width="1" height="48" fill="#8B949E" opacity="0.35"/>
+
+    <g transform="translate(625,0)">
+      <text x="0" y="34" text-anchor="middle" font-size="34" font-weight="700" fill="#768390">2<tspan font-size="19" dx="2">yrs</tspan></text>
+      <text x="0" y="58" text-anchor="middle" font-size="10.5" fill="#6E7681" letter-spacing="1.8">DFIR EXPERIENCE</text>
     </g>
 
-    <g transform="translate(762,0)">
-      <rect width="238" height="112" rx="12" fill="url(#tile)" stroke="#21262D" stroke-width="2"/>
-      <rect x="1" y="1" width="4" height="110" rx="2" fill="#3FB950" opacity="0.75"/>
-      <text x="119" y="58" text-anchor="middle" font-size="38" font-weight="700" fill="#E6EDF3">2<tspan font-size="20" dx="2">yrs</tspan></text>
-      <text x="119" y="83" text-anchor="middle" font-size="10.5" fill="#8B949E" letter-spacing="1.8">DFIR EXPERIENCE</text>
+    <rect x="750" y="10" width="1" height="48" fill="#8B949E" opacity="0.35"/>
+
+    <g transform="translate(875,0)">
+      <text x="0" y="34" text-anchor="middle" font-size="30" font-weight="700" fill="#2EA043">GCFA</text>
+      <text x="0" y="58" text-anchor="middle" font-size="10.5" fill="#6E7681" letter-spacing="1.8">GIAC ADVISORY BOARD</text>
     </g>
 
   </g>
