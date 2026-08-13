@@ -15,6 +15,10 @@
       <stop offset="0%" stop-color="#3FB950"/>
       <stop offset="100%" stop-color="#1F6F35"/>
     </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0D1117" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#0D1117" stop-opacity="0"/>
+    </linearGradient>
     <clipPath id="round"><rect width="1000" height="260" rx="14"/></clipPath>
   </defs>
 
@@ -28,7 +32,7 @@
     </g>
 
     <!-- hex dump motif: PE header -->
-    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#21262D">
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#2B333D">
       <text x="583" y="46">00000000  <tspan fill="#2EA043" opacity="0.85">4D 5A</tspan> 90 00 03 00 00 00  <tspan fill="#2EA043" opacity="0.85">MZ</tspan>......</text>
       <text x="583" y="68">00000010  B8 00 00 00 00 00 00 00  ........</text>
       <text x="583" y="90">00000020  00 00 00 00 00 00 00 00  ........</text>
@@ -41,7 +45,7 @@
     </g>
 
     <!-- fade hex into background on the left edge -->
-    <rect x="520" y="0" width="120" height="260" fill="#0D1117" opacity="0.55"/>
+    <rect x="500" y="0" width="150" height="260" fill="url(#fade)"/>
 
     <!-- left accent -->
     <rect x="0" y="0" width="6" height="260" fill="url(#edge)"/>
