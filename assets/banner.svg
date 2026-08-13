@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 260" width="1000" height="260" role="img" aria-label="Mihir Singh Choudhary — Digital Forensics and Incident Response">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B0F14"/>
+      <stop offset="55%" stop-color="#0D1117"/>
+      <stop offset="100%" stop-color="#12181F"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2EA043" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#3FB950" stop-opacity="0.5"/>
+      <stop offset="55%" stop-color="#3FB950" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#2EA043" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3FB950"/>
+      <stop offset="100%" stop-color="#1F6F35"/>
+    </linearGradient>
+    <clipPath id="round"><rect width="1000" height="260" rx="14"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="1000" height="260" fill="url(#bg)"/>
+
+    <!-- faint grid -->
+    <g stroke="#161B22" stroke-width="1">
+      <path d="M0 65H1000M0 130H1000M0 195H1000"/>
+      <path d="M200 0V260M400 0V260M600 0V260M800 0V260"/>
+    </g>
+
+    <!-- hex dump motif: PE header -->
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#21262D">
+      <text x="583" y="46">00000000  <tspan fill="#2EA043" opacity="0.85">4D 5A</tspan> 90 00 03 00 00 00  <tspan fill="#2EA043" opacity="0.85">MZ</tspan>......</text>
+      <text x="583" y="68">00000010  B8 00 00 00 00 00 00 00  ........</text>
+      <text x="583" y="90">00000020  00 00 00 00 00 00 00 00  ........</text>
+      <text x="583" y="112">00000040  0E 1F BA 0E 00 B4 09 CD  ........</text>
+      <text x="583" y="134">00000050  21 B8 01 4C CD 21 54 68  !..L.!Th</text>
+      <text x="583" y="156">00000060  69 73 20 70 72 6F 67 72  is progr</text>
+      <text x="583" y="178">00000078  <tspan fill="#2EA043" opacity="0.85">50 45 00 00</tspan> 64 86 07 00  <tspan fill="#2EA043" opacity="0.85">PE</tspan>..d...</text>
+      <text x="583" y="200">00000088  00 00 00 00 00 00 00 00  ........</text>
+      <text x="583" y="222">00000098  F0 00 22 00 0B 02 0E 1D  ..".....</text>
+    </g>
+
+    <!-- fade hex into background on the left edge -->
+    <rect x="520" y="0" width="120" height="260" fill="#0D1117" opacity="0.55"/>
+
+    <!-- left accent -->
+    <rect x="0" y="0" width="6" height="260" fill="url(#edge)"/>
+
+    <!-- prompt line -->
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">
+      <text x="52" y="58" fill="#3FB950">$</text>
+      <text x="70" y="58" fill="#6E7681">whoami --verbose</text>
+    </g>
+
+    <!-- name -->
+    <text x="50" y="118" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+          font-size="38" font-weight="700" fill="#E6EDF3" letter-spacing="0.5">MIHIR SINGH CHOUDHARY</text>
+
+    <!-- role -->
+    <text x="52" y="152" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+          font-size="16" fill="#3FB950" letter-spacing="3.4">DIGITAL FORENSICS &amp; INCIDENT RESPONSE</text>
+
+    <!-- rule -->
+    <rect x="52" y="172" width="430" height="1" fill="#21262D"/>
+
+    <!-- meta -->
+    <text x="52" y="200" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+          font-size="13" fill="#8B949E">GCFA  ·  GIAC Advisory Board  ·  Hyderabad, India</text>
+
+    <!-- caret -->
+    <text x="52" y="228" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+          font-size="13" fill="#6E7681">acquire · analyse · reconstruct<tspan fill="#3FB950" dx="6">█<animate attributeName="opacity" values="1;1;0;0" dur="1.15s" repeatCount="indefinite"/></tspan></text>
+
+    <!-- scan line -->
+    <rect x="0" y="0" width="1000" height="2" fill="url(#scan)">
+      <animate attributeName="y" values="-4;262;-4" dur="7s" repeatCount="indefinite"/>
+    </rect>
+
+    <rect width="1000" height="260" rx="14" fill="none" stroke="#21262D" stroke-width="2"/>
+  </g>
+</svg>
