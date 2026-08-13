@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/mihir-choudhary/"><img src="https://img.shields.io/badge/LinkedIn-mihir--choudhary-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://www.linkedin.com/in/mihir-choudhary/"><img src="https://img.shields.io/badge/LinkedIn-mihir--choudhary-0A66C2?style=for-the-badge" alt="LinkedIn"></a>
   <a href="mailto:mihirsinghchoudhary777@gmail.com"><img src="https://img.shields.io/badge/Email-Get_in_touch-2EA043?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
   <a href="https://github.com/Mihir-Choudhary?tab=repositories"><img src="https://img.shields.io/badge/Projects-DFIR_Tooling-24292F?style=for-the-badge&logo=github&logoColor=white" alt="Projects"></a>
 </p>
@@ -92,14 +92,14 @@ Upstream work on tools the DFIR community actually uses:
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=csharp&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square)
 ![Splunk](https://img.shields.io/badge/Splunk-000000?style=flat-square&logo=splunk&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Windows](https://img.shields.io/badge/Windows-0078D6?style=flat-square&logo=windows&logoColor=white)
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=flat-square)
 
 ---
 
