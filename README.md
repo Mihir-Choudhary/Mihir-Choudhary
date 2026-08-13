@@ -17,8 +17,8 @@ DFIR analyst at **Tata Consultancy Services**, running end-to-end investigations
 Most of my time goes into correlating logs and telemetry into an attack timeline that actually holds up. When a tool doesn't exist for the artifact in front of me, I write one — that's where everything below came from.
 
 ```yaml
-disk_forensics:   E01 / AFF4 / RAW acquisition · NTFS artifacts · registry · prefetch · timeline reconstruction
-memory_forensics: Volatility 3 · process & handle analysis · injected code · API hook detection
+disk_forensics:   E01 / AFF4 / RAW acquisition · Windows forensics · Linux forensics
+memory_forensics: Volatility 3 · Volatility 2 · MemProcFS
 mobile_forensics: Cellebrite UFED · manual SQLite carving · deleted-record recovery · Indian fintech apps
 cloud_forensics:  EC2 snapshot acquisition · EBS imaging · CloudTrail & VPC Flow Logs · OneDrive / GDrive
 malware_analysis: Ghidra · IDA Pro · static & dynamic triage · reverse engineering
